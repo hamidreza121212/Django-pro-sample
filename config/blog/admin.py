@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import Article, Category
-# from rangefilter.filter import DateRangeFilter, DateTimeRangeFilter
+from rangefilter.filter import DateRangeFilter, DateTimeRangeFilter
 
 # Register your models here.
 

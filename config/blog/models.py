@@ -1,5 +1,6 @@
 from djongo import models
 from django.utils import timezone
+from django.utils.html import format_html
 from extensions.utils import jalali_converter
 
 # my managers
@@ -70,6 +71,10 @@ class Article(models.Model):
 
     def category_published(self):
         return self.category.filter(status="y")
+
+    def image_tag(self):
+        return format_html("<img width=65 height=65 style='border-radius: 15px' src='{}'>".format(self.image.url))
+    image_tag.short_description = "تصویر"
 
     objects = ArticleManager()
 

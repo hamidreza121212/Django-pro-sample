@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "60d6aa6cb44921f6584a26b0"
+  },
+  "id": 1,
+  "title": "آموزش",
+  "slug": "learning",
+  "status": "y",
+  "position": 1,
+  "parent_id": null
+},{
+  "_id": {
+    "$oid": "60d6b03db44921f6584a26c9"
+  },
+  "id": 2,
+  "title": "اخبار",
+  "slug": "khbr",
+  "status": "y",
+  "position": 2,
+  "parent_id": null
+},{
+  "_id": {
+    "$oid": "60d6b070b44921f6584a26ce"
+  },
+  "id": 3,
+  "title": "نمایش",
+  "slug": "nmsh",
+  "status": "n",
+  "position": 3,
+  "parent_id": null
+},{
+  "_id": {
+    "$oid": "60d6b2eed7ed520adf690395"
+  },
+  "id": 4,
+  "parent_id": 2,
+  "title": "سیاسی",
+  "slug": "national",
+  "status": "y",
+  "position": 4
+},{
+  "_id": {
+    "$oid": "60d6b30ed7ed520adf690397"
+  },
+  "id": 5,
+  "parent_id": 4,
+  "title": "داخلی",
+  "slug": "dkhl",
+  "status": "y",
+  "position": 5
+},{
+  "_id": {
+    "$oid": "60d6b32cd7ed520adf690399"
+  },
+  "id": 6,
+  "parent_id": 1,
+  "title": "ویندوز",
+  "slug": "windows",
+  "status": "y",
+  "position": 6
+},{
+  "_id": {
+    "$oid": "60d6b34fd7ed520adf69039b"
+  },
+  "id": 7,
+  "parent_id": 1,
+  "title": "لینوکس",
+  "slug": "linux",
+  "status": "y",
+  "position": 7
+},{
+  "_id": {
+    "$oid": "60d6b37cd7ed520adf69039d"
+  },
+  "id": 8,
+  "parent_id": 1,
+  "title": "متفرقه",
+  "slug": "mtfrkh",
+  "status": "y",
+  "position": 8
+},{
+  "_id": {
+    "$oid": "60d6b41dd7ed520adf6903a0"
+  },
+  "id": 9,
+  "parent_id": 7,
+  "title": "ubuntu",
+  "slug": "ubuntu",
+  "status": "n",
+  "position": 9
+},{
+  "_id": {
+    "$oid": "60d6b42ed7ed520adf6903a2"
+  },
+  "id": 10,
+  "parent_id": 7,
+  "title": "kali",
+  "slug": "kali",
+  "status": "y",
+  "position": 10
+},{
+  "_id": {
+    "$oid": "60d6b442d7ed520adf6903a4"
+  },
+  "id": 11,
+  "parent_id": 6,
+  "title": "xp",
+  "slug": "xp",
+  "status": "y",
+  "position": 11
+},{
+  "_id": {
+    "$oid": "60d6b453d7ed520adf6903a6"
+  },
+  "id": 12,
+  "parent_id": 6,
+  "title": "10",
+  "slug": "10",
+  "status": "y",
+  "position": 12
+},{
+  "_id": {
+    "$oid": "60d6b5dccd623b1795aa79bb"
+  },
+  "id": 13,
+  "parent_id": 2,
+  "title": "اقتصادی",
+  "slug": "ktsd",
+  "status": "y",
+  "position": 13
+},{
+  "_id": {
+    "$oid": "60d6b5f3cd623b1795aa79bd"
+  },
+  "id": 14,
+  "parent_id": 4,
+  "title": "خارجی",
+  "slug": "khrg",
+  "status": "y",
+  "position": 14
+}]

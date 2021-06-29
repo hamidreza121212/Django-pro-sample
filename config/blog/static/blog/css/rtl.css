@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Sahel;
+    src: url('../font/Sahel.eot');
+    src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'),
+    url('../font/Sahel.woff2') format('woff2'),
+    url('../font/Sahel.woff') format('woff'),
+    url('../font/Sahel.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Sahel;
+    font-size: 14px;
+
+}
+
+ul.navbar-nav.ms-auto.py-4.py-lg-0 {
+    margin-left: initial !important;
+    margin-right: auto;
+}
+
+p.post-meta {
+    text-align: left;
+}
+
+.navbar-test ul {
+    padding-right: 0;
+}
+
+.navbar-test ul li {
+    border-bottom: none;
+    height: 45px;
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+}
+
+.navbar-test ul li a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    transition: .3s background-color;
+    padding: 0 24px;
+}
+
+.navbar-test ul li a:hover {
+    background-color: #5c89c7;
+    color: #ffffff;
+    border: 25px;
+}
+
+.navbar-test a {
+    border-bottom: none;
+}
+
+.navbar-test li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+.navbar-test li:hover ul {
+    display: block;
+}
+
+.navbar-test ul li ul li {
+    display: block;
+    float: none !important;
+    height: auto;
+    line-height: 0px;
+}
+
+.navbar-test ul li ul li ul {
+    position: absolute;
+    right: 85%;
+    top: 55px;
+    display: none !important;
+}
+
+.navbar-test ul > li > ul > li:hover > ul {
+    display: block !important;
+}
+
+.navbar-test ul > li > ul > li > ul > li:hover > ul {
+    display: block !important;
+}
+
+

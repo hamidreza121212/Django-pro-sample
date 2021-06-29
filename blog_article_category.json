@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "60d6aa92b44921f6584a26b3"
+  },
+  "id": 1,
+  "article_id": 1,
+  "category_id": 1
+},{
+  "_id": {
+    "$oid": "60d6ad00b44921f6584a26bb"
+  },
+  "id": 3,
+  "article_id": 4,
+  "category_id": 1
+},{
+  "_id": {
+    "$oid": "60d6ad0eb44921f6584a26be"
+  },
+  "id": 4,
+  "article_id": 5,
+  "category_id": 1
+},{
+  "_id": {
+    "$oid": "60d6ad2eb44921f6584a26c1"
+  },
+  "id": 5,
+  "article_id": 6,
+  "category_id": 1
+},{
+  "_id": {
+    "$oid": "60d6ad4fb44921f6584a26c4"
+  },
+  "id": 6,
+  "article_id": 7,
+  "category_id": 1
+},{
+  "_id": {
+    "$oid": "60d6b04bb44921f6584a26cb"
+  },
+  "id": 8,
+  "article_id": 2,
+  "category_id": 1
+},{
+  "_id": {
+    "$oid": "60d6b04bb44921f6584a26cc"
+  },
+  "id": 9,
+  "article_id": 2,
+  "category_id": 2
+},{
+  "_id": {
+    "$oid": "60d6b08db44921f6584a26d0"
+  },
+  "id": 10,
+  "article_id": 3,
+  "category_id": 2
+},{
+  "_id": {
+    "$oid": "60d6b099b44921f6584a26d2"
+  },
+  "id": 11,
+  "article_id": 8,
+  "category_id": 2
+},{
+  "_id": {
+    "$oid": "60d6b0a1b44921f6584a26d4"
+  },
+  "id": 12,
+  "article_id": 5,
+  "category_id": 2
+},{
+  "_id": {
+    "$oid": "60d6b5a5cd623b1795aa79b6"
+  },
+  "id": 14,
+  "article_id": 7,
+  "category_id": 9
+},{
+  "_id": {
+    "$oid": "60d6b5a5cd623b1795aa79b7"
+  },
+  "id": 15,
+  "article_id": 7,
+  "category_id": 7
+},{
+  "_id": {
+    "$oid": "60d6b5b0cd623b1795aa79b9"
+  },
+  "id": 16,
+  "article_id": 3,
+  "category_id": 4
+},{
+  "_id": {
+    "$oid": "60d6b62acd623b1795aa79c0"
+  },
+  "id": 17,
+  "article_id": 6,
+  "category_id": 8
+},{
+  "_id": {
+    "$oid": "60d6b638cd623b1795aa79c2"
+  },
+  "id": 18,
+  "article_id": 3,
+  "category_id": 14
+},{
+  "_id": {
+    "$oid": "60d6b63fcd623b1795aa79c4"
+  },
+  "id": 19,
+  "article_id": 4,
+  "category_id": 8
+},{
+  "_id": {
+    "$oid": "60d6b650cd623b1795aa79c7"
+  },
+  "id": 20,
+  "article_id": 2,
+  "category_id": 8
+},{
+  "_id": {
+    "$oid": "60d6b662cd623b1795aa79c9"
+  },
+  "id": 21,
+  "article_id": 8,
+  "category_id": 4
+},{
+  "_id": {
+    "$oid": "60d6b662cd623b1795aa79ca"
+  },
+  "id": 22,
+  "article_id": 8,
+  "category_id": 5
+},{
+  "_id": {
+    "$oid": "60d6b680cd623b1795aa79cd"
+  },
+  "id": 23,
+  "article_id": 5,
+  "category_id": 6
+}]

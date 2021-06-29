@@ -1,0 +1,55 @@
+{% extends 'blog/base.html' %}
+
+{% block main %}
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('/static/blog/assets/img/home-bg.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading">
+                    <h1>Clean Blog</h1>
+                    <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container px-4 px-lg-5">
+    <h3 class="alert alert-primary text-center">{{category.title}}</h3>
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <!-- Post preview-->
+            {% for article in articles %}
+            <div class="post-preview">
+                <a href="{% url 'blog:detail' article.slug %}">
+                    <h2 class="post-title">{{article.title}}</h2>
+                    <h3 class="post-subtitle">{{article.description|truncatewords:30}}</h3>
+                </a>
+                <p class="post-meta"> نوشته شده توسط<a href="#!"> hamidreza </a> در {{article.jalali_publish}}</p>
+            </div>
+            {% for cat in article.category_published.all %}
+            <smal></smal>
+            <a href="{% url 'blog:category' cat.slug %}">#{{cat.title}}</a>
+            {% endfor %}
+
+            <!-- Divider-->
+            <hr class="my-4"/>
+            {% endfor %}
+
+            <!-- Pager-->
+            <div class="d-flex justify-content-center mb-4">
+                {% if articles.has_previous %}
+                <a class="btn btn-primary text-uppercase" style="margin-left: 10px"
+                   href="{% url 'blog:category' category.slug articles.previous_page_number %}"> پست های جدید
+                    &rAarr;</a>
+                {% endif %}
+                {% if articles.has_next %}
+                <a class="btn btn-primary text-uppercase"
+                   href="{% url 'blog:category' category.slug articles.next_page_number %}"> پست
+                    های قدیمی &lAarr;</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
